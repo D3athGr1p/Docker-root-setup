@@ -2,11 +2,11 @@
 
 > apt-get install -y git && apt-get install -y curl && apt-get install -y wget
 
-> apt-get install \\
-    apt-transport-https \\
-    ca-certificates \\
-    curl \\
-    gnupg \\
+> apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
     lsb-release
 
 > curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg

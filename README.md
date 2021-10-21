@@ -28,4 +28,4 @@ apt update
 
 > apt-get install systemd
 
-> apt installl nano
+> apt install nano
